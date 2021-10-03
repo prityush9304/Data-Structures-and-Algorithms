@@ -11,6 +11,7 @@ int main() {
 	    for(int i=1;i<len;i++){
 	        l=i-1;
 	        h=i;
+		int temp = i*h;
 	        while(l>=0 && h<len && s[l]==s[h]){
 	            if(h-l+1>ml){
 	                st=l;
