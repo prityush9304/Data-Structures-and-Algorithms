@@ -6,6 +6,7 @@ class heap{
 public:
     int* root;
     int hsize=0;
+    int fsize = 0;
     hinsert(int value){
         int* p=root;
         p[hsize]=value;
